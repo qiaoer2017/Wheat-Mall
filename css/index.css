@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 980px;
+    border: 1px solid green;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+#pagetop {
+    min-height: 100px;
+    border-bottom: solid 1px green;
+}
+
+#pagebody {
+    min-height: 600px;
+}
+
+#pagefooter {
+    min-height: 100px;
+    border-top:1px solid green;
+    clear: both;
+}
+
+#body-left {
+    width: 195px;
+    min-height: 600px;
+    float: left;
+    border-right: 1px solid green;
+}
+
+#body-middle {
+    width: 582px;
+    min-height: 600px;
+    float: left;
+    border-right:1px solid green;
+}
+
+#body-right {
+    width: 195px;
+    min-height: 600px;
+    float: right;
+}
