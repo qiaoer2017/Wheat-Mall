@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
     margin: 0;
     padding: 0;
@@ -10,19 +11,235 @@
     min-height: 100px;
 }
 
+/*================头部================*/
 #pagetop {
-    min-height: 100px;
+    height: 140px;
     border-bottom: solid 1px green;
+    position: relative;
 }
 
+#pagetop .logo {
+    line-height: 71px;
+    float: left;
+}
+
+#pagetop .logo img {
+    width: 216px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.welcomeinfo {
+    float: left;
+    height: 71px;
+    line-height: 71px;
+}
+
+.welcomeinfo span {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.welcomeinfo span a {
+    text-decoration: none;
+    color: #666;
+}
+
+.welcomeinfo span a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.topnav {
+    /*float: right;*/
+    height: 71px;
+    display: inline-block;
+}
+
+.topnav ul {
+    list-style: none;
+}
+
+.topnav .navlist {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 12px;
+}
+
+.topnav .navlist li {
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.topnav ul li a {
+    color: #666;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.topnav time {
+    margin-left: 10px;
+}
+
+/* con */
+#con {
+    position: absolute;
+    height: 34px;
+    right: 0;
+    top: 30px;
+    margin: 0px auto;
+    background-color: #FFF;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+#con ul {
+    position: relative;
+    margin: 0px 10px 0px 10px;
+    top: 0;
+    right: 0;
+    padding: 0;
+}
+
+#con ul li {
+    width: 100%;
+    padding: 10px 0;
+    _padding: 8px 0;
+    overflow: hidden;
+    line-height: 12px;
+}
+
+#con ul li img {
+    position: relative;
+    top: 1px;
+}
+
+/*导航*/
+#nav {
+    width: 100%;
+    height: 68px;
+    clear: both;
+}
+
+#nav .nav-menu {
+    width: 100%;
+    height: 36px;
+    background: url("../img/top_1.gif") repeat-x;
+
+}
+
+#nav .nav-menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#nav .nav-menu ul li {
+    display: inline-block;
+    color: #FFFFFF;
+    line-height: 36px;
+
+}
+
+#nav .nav-menu ul li.active a, #nav .nav-menu ul li a:hover {
+    color: yellow;
+    text-decoration: underline;
+
+}
+
+#nav .nav-menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+#nav .nav-search {
+    width: 100%;
+    height: 36px;
+    background: url("../img/top_2.gif") repeat-x;
+    line-height: 28px;
+}
+
+#nav .nav-search form {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+#nav .nav-search form select {
+    width: 130px;
+    height: 22px;
+    border: none;
+}
+
+#nav .nav-search form input#key {
+    width: 260px;
+    border: none;
+    height: 22px;
+    border-radius: 5px;
+    padding: 0 10px;
+
+}
+
+.nav-search .search-way{
+    margin-left: 10px;
+}
+
+#nav .nav-search form input:focus,#nav .nav-search form select:focus {
+    outline: none;
+}
+
+#nav .nav-search form input[type=submit] {
+    border: none;
+    background: white;
+    padding: 0 8px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+#nav .nav-search form input[type=submit]:hover {
+    cursor: pointer;
+}
+
+#nav .nav-search {
+    float: left;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+#nav .nav-search a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#nav .nav-search .cart-and-user {
+    float: right;
+    background: url("../img/d3.jpg");
+    width: 305px;
+    height: 24px;
+    color: #666;
+    margin: 3px 10px;
+    font-size: 13px;
+
+}
+
+span.cart {
+    margin-left: 28px;
+}
+
+span.billing {
+    margin-left: 55px;
+}
+
+span.user-center {
+    margin-left: 30px;
+}
+
+/*================主体=============*/
 #pagebody {
     min-height: 600px;
-}
-
-#pagefooter {
-    min-height: 100px;
-    border-top:1px solid green;
-    clear: both;
 }
 
 #body-left {
@@ -36,11 +253,18 @@
     width: 582px;
     min-height: 600px;
     float: left;
-    border-right:1px solid green;
+    border-right: 1px solid green;
 }
 
 #body-right {
     width: 195px;
     min-height: 600px;
     float: right;
+}
+
+/*================底部================*/
+#pagefooter {
+    min-height: 100px;
+    border-top: 1px solid green;
+    clear: both;
 }
