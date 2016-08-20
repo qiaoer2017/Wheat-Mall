@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+img {
+    border: none;
+}
+
 ul {
     list-style: none;
 }
@@ -242,6 +246,7 @@ span.user-center {
 #pagebody {
     min-height: 600px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /*页面主体的左半边*/
@@ -273,7 +278,7 @@ span.user-center {
 .aside-box > ul {
     border: 1px solid rgb(218, 56, 60);
     border-top: none;
-    padding: 10px 20px;
+    padding: 10px 11px;
 
 }
 
@@ -518,12 +523,14 @@ span.user-center {
     padding: 5px 5px;
     margin-top: 10px;
 }
-.pay-way p{
+
+.pay-way p {
     color: #666;
-    font-size:13px;
+    font-size: 13px;
     margin-bottom: 8px;
 }
-.pay-way ul li{
+
+.pay-way ul li {
     display: inline;
 }
 
@@ -534,9 +541,122 @@ span.user-center {
     float: right;
 }
 
+.website-news {
+    margin-top: 0px;
+}
+
+.website-news ul li {
+    background: url("../img/dot.gif") no-repeat center left;
+    text-indent: 10px;
+    margin-top: 9px;
+}
+
+.website-news ul li a:hover {
+    text-decoration: underline;
+}
+
+.customer-service > ul li > ul > li {
+    display: inline-block;
+    text-indent: 20px;
+    width: 82px;
+    margin-top: 5px;
+    height: 15px;
+    line-height: 15px;
+}
+
+.customer-service > ul li > ul > li a {
+    font-size: 10px;
+}
+
+.category-recommend ul a {
+    color: #333;
+    font-size: 13px;
+}
+
+.category-recommend ul li {
+    border-top: 1px dotted #ccc;
+    padding: 10px 0px;
+}
+
+.category-recommend ul li:first-child {
+    border-top: none;
+    padding: 0;
+}
+
+.category-recommend ul a img {
+    display: inline-block;
+    width: 50px;
+    height: 38px;
+    vertical-align: middle;
+
+}
+
+.category-recommend ul a div {
+    display: inline-block;
+    width: 108px;
+    vertical-align: middle;
+
+}
+
+.category-recommend ul a div p {
+    line-height: 18px;
+}
+
+.category-recommend ul a div .product-price {
+    color: rgb(218, 56, 60);
+    margin-top: 10px;
+}
+
 /*================底部================*/
+.clearfix{
+    width:100%;
+    clear: both;
+    height:20px;
+}
 #pagefooter {
     min-height: 100px;
     /*border-top: 1px solid green;*/
     clear: both;
+}
+
+.footer-nav {
+    background: url("../img/copy.gif") repeat-x;
+    text-align: center;
+    padding: 10px 10px;
+    border:1px solid rgb(218, 56, 60);
+}
+
+.footer-nav > ul > li {
+    display: inline-block;
+    width: 18%;
+}
+
+.footer-nav ul li h6 {
+    color: rgb(218, 56, 60);
+    font-size: 15px;
+    text-align: left;
+}
+
+.footer-nav > ul > li > ul > li {
+    font-size: 13px;
+    background: url("../img/dot.gif") no-repeat center left;
+    text-align: left;
+    margin: 5px 0;
+    text-indent: 10px;
+}
+
+.footer-nav > ul > li > ul > li a {
+    color: #666;
+}
+.footer-info{
+    margin:10px 0;
+}
+.footer-info div{
+    color: #666;
+    font-size:13px;
+    text-align: center;
+    margin:10px 0;
+}
+.footer-info div span{
+    margin:0 10px;
 }
