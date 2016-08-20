@@ -4,9 +4,18 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
 #container {
     width: 980px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin: 0 auto;
     min-height: 100px;
 }
@@ -14,7 +23,7 @@
 /*================头部================*/
 #pagetop {
     height: 140px;
-    border-bottom: solid 1px green;
+    /*border-bottom: solid 1px green;*/
     position: relative;
 }
 
@@ -41,7 +50,6 @@
 }
 
 .welcomeinfo span a {
-    text-decoration: none;
     color: #666;
 }
 
@@ -54,10 +62,6 @@
     /*float: right;*/
     height: 71px;
     display: inline-block;
-}
-
-.topnav ul {
-    list-style: none;
 }
 
 .topnav .navlist {
@@ -75,7 +79,6 @@
 
 .topnav ul li a {
     color: #666;
-    text-decoration: none;
     margin: 5px;
 }
 
@@ -131,7 +134,7 @@
 }
 
 #nav .nav-menu ul {
-    list-style: none;
+
     text-align: center;
 }
 
@@ -150,7 +153,6 @@
 
 #nav .nav-menu ul li a {
     color: #FFFFFF;
-    text-decoration: none;
     margin: 0 5px;
     font-size: 14px;
 }
@@ -183,11 +185,11 @@
 
 }
 
-.nav-search .search-way{
+.nav-search .search-way {
     margin-left: 10px;
 }
 
-#nav .nav-search form input:focus,#nav .nav-search form select:focus {
+#nav .nav-search form input:focus, #nav .nav-search form select:focus {
     outline: none;
 }
 
@@ -211,7 +213,6 @@
 
 #nav .nav-search a {
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 #nav .nav-search .cart-and-user {
@@ -240,22 +241,293 @@ span.user-center {
 /*================主体=============*/
 #pagebody {
     min-height: 600px;
+    margin-top: 10px;
 }
 
+/*页面主体的左半边*/
 #body-left {
     width: 195px;
     min-height: 600px;
     float: left;
-    border-right: 1px solid green;
+    /*border-right: 1px solid green;*/
 }
 
+.aside-box {
+    margin-top: 10px;
+}
+
+.user-info {
+    margin-top: 0px;
+}
+
+.aside-box h3 {
+    background: url("../img/la_4.gif") no-repeat;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    /* padding: 0 0; */
+    line-height: 31px;
+    height: 30px;
+}
+
+.aside-box > ul {
+    border: 1px solid rgb(218, 56, 60);
+    border-top: none;
+    padding: 10px 20px;
+
+}
+
+.aside-box > ul > li {
+    margin-top: 5px;
+    color: #666;
+    font-size: 13px;
+}
+
+.user-info > ul > li {
+    text-indent: 20px;
+
+}
+
+.aside-box ul li a {
+    color: #666;
+    font-size: 13px;
+    height: 15px;
+    line-height: 15px;
+}
+
+.product-category > ul h4 {
+    background: url("../img/dot.gif") no-repeat center left;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+.product-category > ul h4 a {
+    color: rgb(218, 56, 60);
+    font-size: 14px;
+}
+
+.product-category > ul > li > ul > li {
+    border-top: dotted 1px #ddd;
+    padding: 5px 0;
+    height: 15px;
+    width: 168px;
+    line-height: 15px;
+    text-indent: 10px;
+}
+
+.product-category > ul > li > ul > li:last-child {
+    border-bottom: dotted 1px #ddd;
+}
+
+.product-category > ul > li > ul > li a {
+    display: inline-block;
+    width: 72px;
+    text-align: justify;
+}
+
+.product-category > ul > li > ul > li a:first-child {
+    border-right: 1px solid #333333;
+    /*padding-right: 5px;*/
+    /*margin-right: 5px;*/
+}
+
+.recommend-brands ul {
+    padding: 10px 0 30px 0;
+    text-align: center;
+    position: relative;
+
+}
+
+.recommend-brands ul li img {
+    width: 80px;
+    height: 45px;
+}
+
+.recommend-brands ul li {
+    display: inline-block;
+    width: 80px;
+    height: 45px;
+    border: 1px solid #999;
+    margin: 5px 3px;
+}
+
+.recommend-brands p {
+    font-size: 13px;
+    color: #666;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.partners ul li {
+    text-align: center;
+}
+
+/*页面主体的中间部分*/
 #body-middle {
-    width: 582px;
+    width: 580px;
     min-height: 600px;
+    margin: 0 5px;
     float: left;
-    border-right: 1px solid green;
+    /*border-right: 1px solid green;*/
 }
 
+/*轮播*/
+.out {
+    position: relative;
+    width: 580px;
+    height: 120px;
+    margin: 0px auto;
+}
+
+.out .img img {
+    width: 580px;
+    height: 120px;
+}
+
+.out .img li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.out .num {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    font-size: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.out .num li {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 10px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.out .num li.active {
+    background-color: #a00;
+}
+
+.out .btn {
+    position: absolute;
+    top: 50%;
+    width: 22px;
+    height: 35px;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    display: none;
+}
+
+.out:hover .btn {
+    display: block;
+    cursor: pointer;
+}
+
+.out .left {
+    left: 0;
+}
+
+.out .right {
+    right: 0;
+}
+
+/*中间商品展示区*/
+.product-box {
+    margin-top: 10px;
+}
+
+.product-box ul {
+    text-align: center;
+    padding: 3px 0;
+}
+
+.product-box h3 {
+    background: url("../img/ca_1.gif") no-repeat;
+    height: 31px;
+    line-height: 31px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+.product-box h3 span {
+    font-size: 6px;
+    color: #666;
+    float: right;
+    margin-right: 10px;
+}
+
+.product-box h3 span:after {
+    content: '>>';
+}
+
+.product-box li {
+    display: inline-block;
+    width: 112px;
+    height: 143px;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.product-box li a {
+    color: #333;
+    font-size: 13px;
+}
+
+.product-box li:hover {
+    box-shadow: 1px 1px 3px #bbb, -1px -1px 3px #bbb;
+}
+
+.product-box li a p.product-title {
+    margin-top: 5px;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-box li a p {
+    text-align: center;
+    width: 110px;
+    line-height: 18px;
+}
+
+.product-box li a p.product-price {
+    color: rgb(218, 56, 60);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 18px;
+}
+
+.pay-way {
+    background: rgb(245, 245, 245);
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.pay-way p{
+    color: #666;
+    font-size:13px;
+    margin-bottom: 8px;
+}
+.pay-way ul li{
+    display: inline;
+}
+
+/*页面主体的右半边*/
 #body-right {
     width: 195px;
     min-height: 600px;
@@ -265,6 +537,6 @@ span.user-center {
 /*================底部================*/
 #pagefooter {
     min-height: 100px;
-    border-top: 1px solid green;
+    /*border-top: 1px solid green;*/
     clear: both;
 }
