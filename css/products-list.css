@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+.sub-category {
+    padding: 5px 3px;
+
+}
+
+.sub-category h4, .tab-bar h4 {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.sub-category ul {
+    display: inline-block;
+}
+
+.sub-category ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sub-category ul li a {
+    color: #666;
+    font-size: 11px;
+    text-decoration: underline;
+
+}
+
+.products-list {
+    border: 1px solid #ccc;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tab-bar {
+    background: url("../img/sortbg.jpg") repeat-x;
+    height: 26px;
+    position: relative;;
+}
+
+.tab-bar {
+    padding: 0 10px;
+}
+
+.tab-bar ul {
+    display: inline-block;
+}
+
+.tab-bar li {
+    display: inline-block;
+
+}
+
+.tab-bar > ul li {
+    height: 26px;
+    line-height: 26px;
+    font-size: 13px;
+    color: #666;
+    padding: 0 5px;
+    border-left: 1px solid #ccc;
+}
+
+.tab-bar > ul li:hover {
+    background: url("../img/sortbg1.jpg") repeat-x;
+    cursor: pointer;
+}
+
+.tab-bar .display-way {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.tab-bar .display-way ul li {
+    border: none;
+}
+
+.tab-bar .display-way ul {
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+}
+
+.tab-bar .display-way ul li a {
+    height: 26px;
+}
+
+.tab-bar .active {
+    background: url("../img/sortbg1.jpg") repeat-x;
+
+}
+
+.products-list > ul > li {
+    border-bottom: 1px dotted #ccc;
+    clear: both;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.products-list > ul > li .products-img {
+    border: 1px solid #999;
+    float: left;;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.products-list > ul > li div {
+    float: left;
+    margin-top: 3px;
+    margin-left: 26px;
+
+}
+
+.products-img img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.product-title {
+    font-size: 14px;
+    color: #666;
+    line-height: 33px;
+}
+
+.product-price {
+    font-size: 13px;
+    color: #666;
+}
+
+.product-price span {
+    margin-right: 15px;
+}
+
+.special-price {
+    color: orangered;
+}
+
+.buy-duibi-shoucang {
+    position: absolute;
+    right: 60px;
+    bottom: 16px;
+}
+
+.page p {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 15px;
+    clear: both;
+    margin-top: 10px;
+}
+
+.page p:first-child span {
+    margin-right: 20px;
+}

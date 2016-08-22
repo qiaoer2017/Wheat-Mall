@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”renderer” content=”webkit”>
+    <meta http-equiv=”X-UA-Compatible” content=”IE=Edge,chrome=1″>
+    <title>麦子商城</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/product-details.css">
+</head>
+<body>
+<div id="container">
+    <!--网站头部-->
+    <div id="pagetop">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo">
+        </div>
+        <div class="welcomeinfo">
+            <span>您好，欢迎来到麦子商城！想继续购物？<a href="login.html">[请登录]</a>，新用户？<a href="register.html">[免费注册]</a></span>
+        </div>
+        <div class="topnav">
+            <ul class="navlist">
+                <li><a href="#">帮助中心</a>|</li>
+                <li><a href="#">客户反馈</a>|</li>
+                <li><a href="#">网站地图</a>|</li>
+                <li><a href="#">加入收藏</a></li>
+                <li>
+                    <time></time>
+                </li>
+            </ul>
+            <div class="marqueemsg">
+                <div id="con">
+                    <ul>
+                        <li>
+                            <img src="img/notice.gif" width="12" height="12"><a href="#">麦子商城升级，感谢用户的支持与信任！</a>
+                        </li>
+                        <li>
+                            <img src="img/notice.gif" width="12" height="12"><a href="#">这是另一条信息，用于测试测试测试测试！</a>
+                        </li>
+                        <li>
+                            <img src="img/notice.gif" width="12" height="12"><a href="#">还有另一条信息，用于测试测试测试测试！</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#">网站首页</a>|</li>
+                    <li><a href="#">分类导航</a>|</li>
+                    <li><a href="#">品牌导航</a>|</li>
+                    <li><a href="#">购物帮助</a>|</li>
+                    <li><a href="#">新闻资讯</a>|</li>
+                    <li><a href="#">报价单</a>|</li>
+                    <li><a href="#">发货单</a></li>
+                </ul>
+            </div>
+            <div class="nav-search">
+                <form action="#">
+                    <span>商品搜索: </span>
+                    <select name="category" id="category">
+                        <option value="all">所有分类</option>
+                        <option value="category1">分类一</option>
+                        <option value="category2">分类二</option>
+                    </select>
+                    <input type="text" name="key" id="key" placeholder="请输入你感兴趣的商品名称">
+                    <input type="submit" name="submit" value="搜索">
+                    <span class="search-way"><a href="#">高级</a>/<a href="#">组合</a>搜索</span>
+                </form>
+                <div class="cart-and-user">
+                    <span class="cart">购物车暂时为空</span>
+                    <span class="billing">去结算</span>
+                    <span class="user-center">用户中心</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--网站主体-->
+    <div id="pagebody">
+        <!--主体左边-->
+        <div id="body-left">
+            <div class="aside-box user-info">
+                <h3>用户信息</h3>
+                <ul>
+                    <li style="background: url('img/1.gif') no-repeat center left;"><a href="#">欢迎张三</a>/<a
+                            href="logout.html">[退出]</a></li>
+                    <li style="background: url('img/2.gif') no-repeat center left;"><a href="#">用户资料修改</a></li>
+                    <li style="background: url('img/3.gif') no-repeat center left;"><a href="#">用户密码修改</a></li>
+                    <li style="background: url('img/4.gif') no-repeat center left;"><a href="#">订单管理</a></li>
+                    <li style="background: url('img/5.gif') no-repeat center left;"><a href="#">管理优惠券(0张)</a></li>
+                    <li style="background: url('img/6.gif') no-repeat center left;"><a href="#">兑换优惠券</a></li>
+                    <li style="background: url('img/7.gif') no-repeat center left;"><a href="#">缺货登记|登记记录</a></li>
+                    <li style="background: url('img/8.gif') no-repeat center left;"><a href="#">购物车(2)</a></li>
+                    <li style="background: url('img/9.gif') no-repeat center left;"><a href="#">我的收藏</a></li>
+                    <li style="background: url('img/10.gif') no-repeat center left;"><a href="#">对比框(0)</a></li>
+                </ul>
+            </div>
+
+            <div class="aside-box category-recommend">
+                <h3>最近浏览商品</h3>
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/product1.jpg" alt="" width="110" height="85">
+                            <div>
+                                <p class="product-title">商品标题5商品标题2商品标题5商品标题2商品题2商品</p>
+                                <p class="product-price">￥1298.00元</p>
+                            </div>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!--主体右半部分-->
+        <div id="body-middle-and-right">
+            <p class="breadcrumbs">您的位置:首页 >> 家用电器 >> 生活电器 >> 霍尼韦尔(Honeywell) 5010-CHN空气净化器</p>
+            <div class="product-info">
+                <div class="product-images">
+                    <div class="big-image">
+                        <img src="img/p1.jpg" alt="">
+                    </div>
+                    <div class="small-images">
+                        <ul>
+                            <li><img src="img/p1-small.jpg" big-src="img/p1.jpg" alt=""></li>
+                            <li><img src="img/p2-small.jpg" big-src="img/p2.jpg" alt=""></li>
+                            <li><img src="img/p3-small.jpg" big-src="img/p3.jpg" alt=""></li>
+                            <li><img src="img/p4-small.jpg" big-src="img/p4.jpg" alt=""></li>
+                            <li><img src="img/p5-small.jpg" big-src="img/p5.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <div class="product-title">
+                        <h2>美的(midea) 电脑版电压力锅PCS507一锅双胆</h2>
+                        <p><a href="#">0篇用户评论</a>|<a href="#">写评论</a></p>
+                    </div>
+                    <div class="number">
+                        <p>商品编号:10000344343</p>
+                        <p>商品积分:<span>1298</span><span class="tips">(积分可兑换优惠券)</span></p>
+                    </div>
+                    <div class="product-price">
+                        <ul>
+                            <li><span>市场价格:</span><s>￥1298.00</s></li>
+                            <li><span>现在只要:</span><span class="price">￥1198.00</span></li>
+                            <li><span>为您节省:</span><span class="price">￥100.00</span></li>
+                            <li><span>订购数量:</span><input type="text" value="1" size="5"></li>
+                        </ul>
+                        <div class="buy-duibi-shoucang">
+                            <a href="#"><img src="img/buy.gif" alt=""></a>
+                            <a href="#"><img src="img/duibi.gif" alt=""></a>
+                            <a href="#"><img src="img/shoucang.gif" alt=""></a>
+                        </div>
+                    </div>
+
+                    <!--放大镜-->
+                    <div class="magnifier">
+                        <img src="img/p1.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="next-product">
+                <p><span>下一个商品:</span>美的(midea) 电脑版电压力锅PCS507一锅双胆</p>
+                <div>
+                    <a href="#">
+                        <img src="img/alipay_buy.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/paypal_buy.gif" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="product-relative-info">
+                <ul>
+                    <li class="active">详细说明</li>
+                    <li>相关商品</li>
+                    <li>商品评论</li>
+                    <li>付款方式</li>
+                    <li>送货方式</li>
+                </ul>
+                <div>
+                    <div class="tab tab1 active-tab">
+                        <p>第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页</p>
+                        <p>第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页</p>
+                        <p>第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第</p>
+                        <p>
+                            第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页</p>
+                        <p>
+                            第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页一个标签页第一个标签页</p>
+                        <p>
+                            第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页一个标签页第一个标签页</p>
+                        <p>第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页</p>
+                        <p>第一个标签页第一个标签页第一个标签页</p>
+                        <p>第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页</p>
+                        <p>
+                            第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页第一个标签页</p>
+
+                    </div>
+                    <div class="tab tab2">
+                        <p>第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页</p>
+                        <p>第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页</p>
+                        <p>第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第</p>
+                        <p>
+                            第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页</p>
+                        <p>
+                            第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页二个标签页第二个标签页</p>
+                        <p>
+                            第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页二个标签页第二个标签页</p>
+                        <p>第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页第二个标签页</p>
+                        <p>第二个标签页第二个标签页第二个标签页</p>
+
+                    </div>
+                    <div class="tab tab3">
+                        <p>第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页</p>
+                        <p>第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页</p>
+                        <p>第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第</p>
+                        <p>
+                            第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页</p>
+                        <p>
+                            第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页第三个标签页三个标签页第三个标签页</p>
+
+                    </div>
+                    <div class="tab tab4">
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第</p>
+                        <p>
+                            第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>
+                            第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页四个标签页第四个标签页</p>
+                        <p>
+                            第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>
+                            第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>
+                            第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页</p>
+                        <p>第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+                        <p>
+                            第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页第四个标签页</p>
+
+                    </div>
+                    <div class="tab tab5">
+                        <p>
+                            第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页五个标签页第五个标签页</p>
+                        <p>第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页</p>
+                        <p>第五个标签页第五个标签页第五个标签页</p>
+                        <p>第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页</p>
+                        <p>
+                            第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页第五个标签页</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--网站底部-->
+    <div class="clearfix"></div>
+
+    <div id="pagefooter">
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <div><span>淘宝店</span><span>淘宝店</span><span>淘宝店</span></div>
+            <div><p>这是一个很长很长的版权声明这是一个很长很长的版权声明这是一个很长很长的版权声明</p></div>
+            <div><p>客服热线:45345234534 传真:79348759034</p></div>
+            <div><p>客服邮箱:642833@13.com</p></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--jQuery-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--jQuery动画暂停插件-->
+<script type="text/javascript" src="js/jquery.pause.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/products-details.js"></script>
+
+</body>
+</html>
