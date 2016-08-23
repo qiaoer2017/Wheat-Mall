@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+h3{
+    background: url("../img/nbg.gif") repeat-x;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-of-type(odd) {
+    background: rgb(245, 245, 245);
+}
+table tr.head th{
+    /*border-collapse: separate;*/
+    padding:5px 0;
+    font-size:14px;
+}
+td,th{
+    vertical-align: middle;
+    text-align: center;
+
+}
+td{
+    font-size:13px;
+    padding: 5px 0;
+
+}
+
+tr td:nth-child(4){
+    color: red;
+
+}
+td a{
+    color: #444;
+}
+#pagebody table + div{
+    background: rgb(250, 242, 255);
+    padding: 10px 3px;
+}
+#pagebody table + div p{
+    line-height:2;
+    color: #333;
+    font-size:13px;
+}
+#pagebody table + div p span{
+    margin:0 5px;
+}
