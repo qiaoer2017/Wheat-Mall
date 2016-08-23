@@ -1,0 +1,43 @@
+#body-middle-and-right > div {
+    background: rgb(249, 249, 249);
+    display: inline-block;
+    margin: 80px;
+    position: relative;
+}
+
+#body-middle-and-right form {
+    background: rgb(249, 249, 249);
+    display: inline-block;
+    position: relative;
+    bottom: 16px;
+}
+
+#body-middle-and-right form p {
+    /*display: inline-block;*/
+    background: rgb(249, 249, 249);
+    margin-top: 10px;
+}
+#body-middle-and-right form p label{
+    width:54px;
+    display: inline-block;
+    text-align: right;
+}
+#body-middle-and-right form p input{
+    width:150px;
+}
+
+.form-top {
+    width: 615px;
+    height: 29px;
+    background: url("../img/logina1.gif") no-repeat;
+}
+
+.form-bottom {
+    width: 615px;
+    height: 29px;
+    background: url("../img/logina2.gif") no-repeat;
+}
+
+.form-top+img{
+    margin-left: 45px;
+}

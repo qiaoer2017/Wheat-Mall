@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#body-middle-and-right label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+#body-middle-and-right label span{
+    color: red;
+}
+#body-middle-and-right input{
+    width:150px;
+}
+#body-middle-and-right input[type=checkbox]{
+    width:10px;
+    margin-left: 104px;
+}
+#body-middle-and-right form p{
+    line-height: 30px;
+}
+#body-middle-and-right input[type=submit]{
+    width:100px;
+    margin-left: 100px;
+}
+
+#body-middle-and-right div{
+   padding-left: 150px;
+}
+
+#body-middle-and-right form label.error{
+    color: red;
+    font-size: 10px;
+    min-width: 124px;
+    text-align: left;
+}

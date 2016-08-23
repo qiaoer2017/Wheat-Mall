@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”renderer” content=”webkit”>
+    <meta http-equiv=”X-UA-Compatible” content=”IE=Edge,chrome=1″>
+    <title>麦子商城</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/register.css">
+
+
+</head>
+<body>
+<div id="container">
+    <!--网站头部-->
+    <div id="pagetop">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="logo">
+        </div>
+        <div class="welcomeinfo">
+            <span>您好，欢迎来到麦子商城！想继续购物？<a href="login.html">[请登录]</a>，新用户？<a href="register.html">[免费注册]</a></span>
+        </div>
+        <div class="topnav">
+            <ul class="navlist">
+                <li><a href="#">帮助中心</a>|</li>
+                <li><a href="#">客户反馈</a>|</li>
+                <li><a href="#">网站地图</a>|</li>
+                <li><a href="#">加入收藏</a></li>
+                <li>
+                    <time></time>
+                </li>
+            </ul>
+            <div class="marqueemsg">
+                <div id="con">
+                    <ul>
+                        <li>
+                            <img src="img/notice.gif" width="12" height="12"><a href="#">麦子商城升级，感谢用户的支持与信任！</a>
+                        </li>
+                        <li>
+                            <img src="img/notice.gif" width="12" height="12"><a href="#">这是另一条信息，用于测试测试测试测试！</a>
+                        </li>
+                        <li>
+                            <img src="img/notice.gif" width="12" height="12"><a href="#">还有另一条信息，用于测试测试测试测试！</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#">网站首页</a>|</li>
+                    <li><a href="#">分类导航</a>|</li>
+                    <li><a href="#">品牌导航</a>|</li>
+                    <li><a href="#">购物帮助</a>|</li>
+                    <li><a href="#">新闻资讯</a>|</li>
+                    <li><a href="#">报价单</a>|</li>
+                    <li><a href="#">发货单</a></li>
+                </ul>
+            </div>
+            <div class="nav-search">
+                <form action="#">
+                    <span>商品搜索: </span>
+                    <select name="category" id="category">
+                        <option value="all">所有分类</option>
+                        <option value="category1">分类一</option>
+                        <option value="category2">分类二</option>
+                    </select>
+                    <input type="text" name="key" id="key" placeholder="请输入你感兴趣的商品名称">
+                    <input type="submit" name="submit" value="搜索">
+                    <span class="search-way"><a href="#">高级</a>/<a href="#">组合</a>搜索</span>
+                </form>
+                <div class="cart-and-user">
+                    <span class="cart">购物车暂时为空</span>
+                    <span class="billing">去结算</span>
+                    <span class="user-center">用户中心</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--网站主体-->
+    <div id="pagebody">
+        <!--主体左边-->
+        <div id="body-left">
+            <div class="aside-box user-info">
+                <h3>用户信息</h3>
+                <ul>
+                    <li style="background: url('img/1.gif') no-repeat center left;"><a href="register.html">注册</a>/<a
+                            href="login.html">登录</a></li>
+                    <li style="background: url('img/8.gif') no-repeat center left;"><a href="#">购物车(0)</a></li>
+                    <li style="background: url('img/10.gif') no-repeat center left;"><a href="#">对比框(0)</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!--主体右半部分-->
+        <div id="body-middle-and-right">
+            <p class="breadcrumbs">您的位置:首页 >> 新用户注册(老用户请登录)</p>
+            <div>
+                <form id="registerForm" action="#">
+                    <p>
+                        <label for="username"><span>*</span>用户名:</label>
+                        <input type="text" name="username" id="username">
+                    </p>
+                    <p>
+                        <label for="password"><span>*</span>密码:</label>
+                        <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                        <label for="confirm_password"><span>*</span>确认密码:</label>
+                        <input type="password" name="confirm_password" id="confirm_password">
+                    </p>
+                    <p>
+                        <label for="email"><span>*</span>邮箱:</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <input type="checkbox" id="agree" name="agree">请确认阅读并同意《<a href="#">注册协议</a>》
+                    </p>
+                    <p>
+                        <input type="submit" value="提交">
+                    </p>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!--网站底部-->
+    <div class="clearfix"></div>
+
+    <div id="pagefooter">
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">发展历程</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <div><span>淘宝店</span><span>淘宝店</span><span>淘宝店</span></div>
+            <div><p>这是一个很长很长的版权声明这是一个很长很长的版权声明这是一个很长很长的版权声明</p></div>
+            <div><p>客服热线:45345234534 传真:79348759034</p></div>
+            <div><p>客服邮箱:642833@13.com</p></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--jQuery-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--jQuery动画暂停插件-->
+<script type="text/javascript" src="js/jquery.pause.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/messages_zh.js"></script>
+<script src="js/register.js"></script>
+
+</body>
+</html>
