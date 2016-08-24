@@ -1,0 +1,40 @@
+#body-middle-and-right div {
+    border: 1px solid rgb(227, 227, 227);
+}
+
+#body-middle-and-right div table {
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+
+input[type=number] {
+    width:30px;
+}
+
+td {
+    padding: 5px 0;
+}
+
+tr.head {
+    background: url("../img/nbg.gif") repeat-x;
+    height: 24px;
+}
+
+#body-middle-and-right div p {
+    text-align: right;
+    margin: 15px;
+}
+
+.total {
+    color: red;
+
+}
